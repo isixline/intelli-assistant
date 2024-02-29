@@ -11,7 +11,7 @@ This is a simple assistant that can help you with your daily tasks. It can be:
 
 ## venv
 ```
-python -m venv myenv
+python -m venv venv
 source venv/bin/activate
 ```
 

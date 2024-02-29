@@ -7,3 +7,15 @@ This is a simple assistant that can help you with your daily tasks. It can be:
 - [ ] English Learning Assistant
 - [ ]  Workflow Assistant
 - [ ]  Programming Assistant
+
+
+## venv
+```
+python -m venv myenv
+source venv/bin/activate
+```
+
+## setup
+```
+pip install -r requirements.txt
+```

@@ -1,5 +1,6 @@
 import requests
 import os
+from intelli_assistant.decorators.auto_log_decorator import auto_log
 
 def get_coordinates(api_key, city):
     geocoder_url = "http://api.openweathermap.org/geo/1.0/direct"
@@ -42,6 +43,7 @@ def get_weather_by_coordinates(api_key, latitude, longitude):
     except Exception as e:
         return "Sorry, unable to fetch weather information."
 
+@auto_log(log_file='weather.log')
 def handle_search_weather(**kwargs):
     city = kwargs.get('city')
     assert city is not None, "city is required."

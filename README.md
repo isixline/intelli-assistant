@@ -20,3 +20,13 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+## run
+```
+python -m intelli_assistant
+```
+
+## test
+```
+python -m pytest
+```

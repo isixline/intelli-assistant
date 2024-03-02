@@ -54,3 +54,6 @@ def handle_search_weather(**kwargs):
     else:
         return "Sorry, unable to get city coordinates when fetch weather information."
     
+if __name__ == "__main__":
+    city = input("search weather: ") or "beijing"
+    print(handle_search_weather(city=city))

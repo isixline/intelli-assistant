@@ -1,5 +1,5 @@
 from intelli_assistant.distributors.keyword_distributor import distribute_keyword
-from intelli_assistant.utils.arg_unit import args_to_kwargs
+from intelli_assistant.utils.arg_util import args_to_kwargs
 
 def split_keyword_and_args(user_input):
     if ' ' not in user_input:

@@ -1,4 +1,4 @@
-from intelli_assistant.utils.arg_unit import args_to_kwargs
+from intelli_assistant.utils.arg_util import args_to_kwargs
 
 def test_args_to_kwargs():
     # given

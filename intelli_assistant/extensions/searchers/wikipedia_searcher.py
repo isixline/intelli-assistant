@@ -1,5 +1,5 @@
 import wikipedia
-from intelli_assistant.decorators.auto_log_decorator import auto_log
+from intelli_assistant.helpers.decorators.auto_log_decorator import auto_log
 
 @auto_log(log_file='wikipedia.log')
 def handle_search_wikipedia(**kwargs):

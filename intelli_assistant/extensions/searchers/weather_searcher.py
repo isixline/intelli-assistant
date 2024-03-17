@@ -1,6 +1,6 @@
 import requests
 import os
-from intelli_assistant.decorators.auto_log_decorator import auto_log
+from intelli_assistant.helpers.decorators.auto_log_decorator import auto_log
 
 def get_coordinates(api_key, city):
     geocoder_url = "http://api.openweathermap.org/geo/1.0/direct"
